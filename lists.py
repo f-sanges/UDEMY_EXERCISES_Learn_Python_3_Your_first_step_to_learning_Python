@@ -51,3 +51,13 @@ print("t copy of s: ", t)
 s[0] = "changed again"
 print("t does non change:", t)
 print("s: ", s)
+
+
+# Convert a list to a tuple
+list1=["uno", "due", 3]
+tup1 = tuple(list1)             #tuple command
+print("type of list1", type(list1))
+print("type of tup1", type(tup1))
+
+list2 = list(tup1)          # list command
+print(list2)
